@@ -1,3 +1,4 @@
+
 # 🦾 AMR Path Planning Optimization in ROS 2
 
 This repository contains the project files for the B.Tech. Project:
@@ -74,12 +75,27 @@ Ensure the following are installed:
 ### Install Python Packages
 ```bash
 pip install pandas matplotlib
-| Name            | Roll Number |
-| --------------- | ----------- |
-| **Rahul Yadav** | 2022MEB1334 |
-| **Sumer Bassi** | 2022MEB1351 |
-🧑‍🏫 Supervisor
+````
 
-Dr. Ekta Singla
-Department of Mechanical Engineering,
-Indian Institute of Technology Ropar
+---
+
+## 👥 Project Team
+
+| Name            | Roll Number | Role              |
+| --------------- | ----------- | ----------------- |
+| **Rahul Yadav** | 2022MEB1334 | Project Developer |
+| **Sumer Bassi** | 2022MEB1351 | Project Developer |
+
+### 🧑‍🏫 Supervisor
+
+**Dr. Ekta Singla**
+Department of Mechanical Engineering
+**Indian Institute of Technology Ropar**
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+You are free to use, modify, and distribute this project with proper attribution.
+
