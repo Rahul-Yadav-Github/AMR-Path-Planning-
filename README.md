@@ -1,64 +1,85 @@
+# 🦾 AMR Path Planning Optimization in ROS 2
 
-AMR Path Planning Optimization in ROS 2
 This repository contains the project files for the B.Tech. Project:
 
-“AMR Path Planning Optimization: Layout Comparison & Energy Analysis”
+**“AMR Path Planning Optimization: Layout Comparison & Energy Analysis”**  
+from the **Indian Institute of Technology Ropar**.
 
-from the Indian Institute of Technology Ropar.
+---
 
-Overview
-The project focuses on developing and evaluating path planning optimization strategies for Autonomous Mobile Robots (AMRs) in warehousing and vertical farming environments.
+## 📘 Overview
 
-It compares three distinct warehouse layouts and path planning algorithms to analyze travel distance and energy consumption.
-Layouts:
-·	Grid
-·	Fishbone
-·	Serpentine
-Algorithms:
-·	A*
-·	RRT*
-·	D* Lite
+This project focuses on developing and evaluating **path planning optimization strategies** for **Autonomous Mobile Robots (AMRs)** in warehousing and vertical farming environments.
 
-Tech Stack
-Component	Description
-Framework	ROS 2 Jazzy
-Simulation	Gazebo 11
-Visualization	RViz
-Robot Model	Novus Carry AMR
-Operating System	Ubuntu 24.04.3 LTS
-Languages	Python, C++ (for ROS nodes), XML (for launch/config)
-Analysis Tools	Python (Pandas, Matplotlib)
+It compares **three distinct warehouse layouts** and **three path planning algorithms** to analyze **travel distance** and **energy consumption**.
 
+### 🏗️ Layouts
+- Grid  
+- Fishbone  
+- Serpentine  
 
-Features
-·	3 Warehouse Layouts:
+### 🧭 Algorithms
+- A*  
+- RRT*  
+- D* Lite  
 
-Gazebo world files for Grid, Fishbone, and Serpentine layouts.
-·	Path Planning Algorithms:
+---
 
-ROS 2 node implementations for A*, RRT*, and D* Lite.
-·	Energy Analysis:
+## 🧰 Tech Stack
 
-Python scripts for data collection and analysis of travel distance, time, and energy usage.
-·	Realistic Simulation:
+| Component | Description |
+|------------|-------------|
+| **Framework** | ROS 2 Jazzy |
+| **Simulation** | Gazebo 11 |
+| **Visualization** | RViz |
+| **Robot Model** | Novus Carry AMR |
+| **Operating System** | Ubuntu 24.04.3 LTS |
+| **Languages** | Python, C++ (for ROS nodes), XML (for launch/config) |
+| **Analysis Tools** | Python (Pandas, Matplotlib) |
 
-Incorporates the Novus Carry AMR model with LIDAR-based navigation.
+---
 
-Setup and Installation
-Prerequisites
+## ✨ Features
+
+### 🏭 1. Warehouse Layouts
+Gazebo world files for **Grid**, **Fishbone**, and **Serpentine** layouts.
+
+### 🧩 2. Path Planning Algorithms
+ROS 2 node implementations for:
+- **A\***
+- **RRT\***
+- **D\* Lite**
+
+### ⚙️ 3. Energy Analysis
+Python scripts for:
+- Data collection  
+- Analysis of **travel distance**, **time**, and **energy usage**
+
+### 🚙 4. Realistic Simulation
+Incorporates the **Novus Carry AMR model** with **LIDAR-based navigation** for realistic motion and sensing.
+
+---
+
+## 🛠️ Setup and Installation
+
+### Prerequisites
+
 Ensure the following are installed:
-·	Ubuntu 24.04.3 LTS
-·	ROS 2 Jazzy (follow the official installation guide)
-·	Gazebo 11
-·	Python 3.8+ with the following packages:
+
+- **Ubuntu 24.04.3 LTS**
+- **ROS 2 Jazzy** (follow [official installation guide](https://docs.ros.org/en/jazzy/Installation.html))
+- **Gazebo 11**
+- **Python 3.8+**
+
+### Install Python Packages
+```bash
 pip install pandas matplotlib
+| Name            | Roll Number |
+| --------------- | ----------- |
+| **Rahul Yadav** | 2022MEB1334 |
+| **Sumer Bassi** | 2022MEB1351 |
+🧑‍🏫 Supervisor
 
-
-Project Team
-Rahul Yadav (2022MEB1334)
-Sumer Bassi (2022MEB1351)
-Supervisor
 Dr. Ekta Singla
-Department of Mechanical Engineering, IIT Ropar
-License
-This project is licensed under the MIT License.
+Department of Mechanical Engineering,
+Indian Institute of Technology Ropar
